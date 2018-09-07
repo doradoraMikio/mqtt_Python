@@ -19,7 +19,3 @@ class Common:
     @staticmethod
     def get_time_stamp():
         return datetime.now().strftime("%Y/%m/%d %H:%M:%S")
-
-
-if __name__ == "__main__":
-    print(Common.random_string(5,5))

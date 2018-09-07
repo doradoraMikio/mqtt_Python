@@ -1,4 +1,4 @@
-import  psutil
+import psutil
 
 
 class ProcessUtilities:
@@ -20,5 +20,3 @@ class ProcessUtilities:
         computer_performance["ram"] = ProcessUtilities.get_ram_performance()
         return computer_performance
 
-
-print(ProcessUtilities.get_computer_performance())
